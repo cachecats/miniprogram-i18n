@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "论坛",
+  "usingComponents": {
+    "comment": "./components/comment/comment"
+  }
+}

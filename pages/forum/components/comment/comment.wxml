@@ -1,0 +1,5 @@
+<!--pages/forum/components/comment.wxml-->
+<view class="comment-wrapper">
+	<text>{{lang.title}}</text>
+  <text>{{lang.msg}}</text>
+</view>

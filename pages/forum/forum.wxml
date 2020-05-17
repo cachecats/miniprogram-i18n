@@ -1,0 +1,6 @@
+<!--pages/forum/forum.wxml-->
+<view class="forum-container">
+	<text class="title">{{lang.forumModule}}</text>
+  <text class="info">{{lang.tip}}</text>
+  <comment/>
+</view>

@@ -1,0 +1,4 @@
+<!--pages/setting/setting.wxml-->
+<view class="setting-container">
+	<text class="title">{{lang.title}}</text>
+</view>

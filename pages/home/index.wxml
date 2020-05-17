@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="container">
+	<view class="userinfo">
+		<button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> {{lang.getUserInfo}} </button>
+		<block wx:else>
+			<image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+			<text class="userinfo-nickname">{{userInfo.nickName}}</text>
+		</block>
+	</view>
+	<view class="motto-container">
+		<view class="usermotto">
+			<text class="user-motto">{{lang.motto}}</text>
+		</view>
+		<text class="respect">---{{lang.respect}}</text>
+	</view>
+
+  <view class="toggle-lang">
+    <text>{{lang.language}}：</text>
+    <picker range="{{langOptions}}" value="{{index}}" range-key="value" bindchange="onLanguageChange">
+      <text>{{langOptions[index].value}}</text>
+    </picker>
+  </view>
+
+
+</view>

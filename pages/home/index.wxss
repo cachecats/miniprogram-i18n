@@ -1,0 +1,46 @@
+/**index.wxss**/
+.container {
+  display: flex;
+  flex-direction: column;
+  font-size: 32rpx;
+  line-height: 1.8;
+  color: #333;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.motto-container {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+  margin-top: 60rpx;
+}
+
+.respect {
+  width: 100%;
+  text-align: end;
+  margin-top: 40rpx;
+}
+
+.toggle-lang {
+  position: absolute;
+  bottom: 160rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

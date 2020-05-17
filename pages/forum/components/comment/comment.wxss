@@ -1,0 +1,8 @@
+/* pages/forum/components/comment.wxss */
+.comment-wrapper{
+  display: flex;
+  flex-direction: column;
+  font-size: 28rpx;
+  color: #409EFF;
+  margin-top: 30rpx;
+}

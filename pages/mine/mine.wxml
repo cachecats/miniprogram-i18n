@@ -1,0 +1,5 @@
+<!--pages/mine/mine.wxml-->
+<view class="mine-container">
+	<text class="title">{{lang.title}}</text>
+  <button bindtap="onClickButton">{{lang.toNewPage}}</button>
+</view>
